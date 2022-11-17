@@ -1,1 +1,3 @@
-Guve us a summary of your journey into DevOps
+Give us a summary of your journey into DevOps
+Introduction into git and github
+software development practices and tool

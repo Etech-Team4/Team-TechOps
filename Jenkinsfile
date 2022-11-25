@@ -4,7 +4,7 @@ pipeline {
 		stage('1-make a left'){
 			steps{
 				echo "walk..."
-				sh 'cat etc/passwd | grep jenkins'
+				sh 'cat etc/passwd | grep ubuntu'
 			}
 		}
 		stage('2-make a right'){

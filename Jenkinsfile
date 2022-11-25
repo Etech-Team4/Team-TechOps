@@ -4,7 +4,7 @@ pipeline {
 		stage('1-make a left'){
 			steps{
 				echo "walk..."
-				sh 'free -g'
+				sh 'cat etc/passwd | grep fidelosa'
 			}
 		}
 		stage('2-make a right'){

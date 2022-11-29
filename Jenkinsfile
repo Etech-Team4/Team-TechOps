@@ -31,7 +31,7 @@ pipeline {
 				sh 'cat /etc/passwd'
 			}
 		}
-		stage(6-security check){
+		stage('6-security check'){
 			steps{
 				sh 'bash -x /var/lib/jenkins/workspace/techops-test/security.sh'
 			}

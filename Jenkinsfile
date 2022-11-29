@@ -25,10 +25,15 @@ pipeline {
 				sh 'lscpu'
 			}
 		}
-		stage('user profile'){
+		stage('5-user profile'){
 			steps{
 				echo "showing users profile"
 				sh 'cat /etc/passwd'
+			}
+		}
+		stage(6-security check){
+			steps{
+				sh 'bash -x /var/lib/jenkins/workspace/techops-test/security.sh'
 			}
 		}
 	}

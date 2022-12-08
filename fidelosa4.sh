@@ -4,7 +4,7 @@ sudo apt update -y
 df -h
 du -h
 lsblk
-sleep 2
+sleep 3
 free -m
 free -g
 lscpu
